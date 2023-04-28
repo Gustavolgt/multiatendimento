@@ -295,9 +295,9 @@ const TicketsManager = () => {
           />
         </Paper>
       </TabPanel>
-      <TabPanel value={tab} name="Finalizado" className={classes.ticketsWrapper}>
+      <TabPanel value={tab} name="closed" className={classes.ticketsWrapper}>
         <TicketsList
-          status="Finalizado"
+          status="closed"
           showAll={true}
           selectedQueueIds={selectedQueueIds}
         />

@@ -47,7 +47,7 @@ const useTickets = ({
                         dataLimite.setHours(dataLimite.getHours() - Number(horasFecharAutomaticamente))
 
                         data.tickets.forEach(ticket => {
-                            if (ticket.status !== "closed") {
+                            if (ticket.status !== "Finalizado") {
                                 let dataUltimaInteracaoChamado = new Date(ticket.updatedAt)
                                 if (dataUltimaInteracaoChamado < dataLimite)
                                     closeTicket(ticket)
@@ -66,7 +66,7 @@ const useTickets = ({
 
             const closeTicket = async(ticket) => {
                 await api.put(`/tickets/${ticket.id}`, {
-                    status: "closed",
+                    status: "Finalizado",
                     userId: ticket.userId || null,
                 })
             }

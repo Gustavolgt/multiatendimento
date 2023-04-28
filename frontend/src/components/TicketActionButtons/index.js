@@ -62,7 +62,7 @@ const TicketActionButtons = ({ ticket }) => {
 
 	return (
 		<div className={classes.actionButtons}>
-			{ticket.status === "closed" && (
+			{ticket.status === "finalizado" && (
 				<ButtonWithSpinner
 					loading={loading}
 					startIcon={<Replay />}
@@ -87,7 +87,7 @@ const TicketActionButtons = ({ ticket }) => {
 						size="small"
 						variant="contained"
 						color="primary"
-						onClick={e => handleUpdateTicketStatus(e, "closed", user?.id)}
+						onClick={e => handleUpdateTicketStatus(e, "finalizado", user?.id)}
 					>
 						{i18n.t("messagesList.header.buttons.resolve")}
 					</ButtonWithSpinner>

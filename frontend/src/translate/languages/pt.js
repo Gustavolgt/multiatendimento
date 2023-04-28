@@ -56,7 +56,7 @@ const messages = {
         }
       },
       connections: {
-        title: "Conexões",
+        title: "Conexões Whatsapp",
         toasts: {
           deleted: "Conexão com o WhatsApp excluída com sucesso!",
         },
@@ -194,8 +194,8 @@ const messages = {
       },
       queueModal: {
         title: {
-          add: "Adicionar fila",
-          edit: "Editar fila",
+          add: "Adicionar setor",
+          edit: "Editar setor",
         },
         form: {
           name: "Nome",
@@ -232,7 +232,7 @@ const messages = {
           email: "Email",
           password: "Senha",
           profile: "Perfil",
-          whatsapp: "Conexão Padrão",
+          whatsapp: "Whatsapp Padrão",
         },
         buttons: {
           okAdd: "Adicionar",
@@ -266,7 +266,7 @@ const messages = {
         },
       },
       ticketsQueueSelect: {
-        placeholder: "Filas",
+        placeholder: "Setores",
       },
       tickets: {
         toasts: {
@@ -276,8 +276,8 @@ const messages = {
           message: "Mensagem de",
         },
         tabs: {
-          open: { title: "Inbox" },
-          closed: { title: "Resolvidos" },
+          open: { title: "Conversas" },
+          closed: { title: "Finalizados" },
           search: { title: "Busca" },
         },
         search: {
@@ -290,10 +290,10 @@ const messages = {
       transferTicketModal: {
         title: "Transferir Ticket",
         fieldLabel: "Digite para buscar usuários",
-        fieldQueueLabel: "Transferir para fila",
-        fieldConnectionLabel: "Transferir para conexão",
-        fieldQueuePlaceholder: "Selecione uma fila",
-        fieldConnectionPlaceholder: "Selecione uma conexão",
+        fieldQueueLabel: "Transferir para setor",
+        fieldConnectionLabel: "Transferir para whatsapp",
+        fieldQueuePlaceholder: "Selecione um setor",
+        fieldConnectionPlaceholder: "Selecione um whatsapp",
         noOptions: "Nenhum usuário encontrado com esse nome",
         buttons: {
           ok: "Transferir",
@@ -302,7 +302,7 @@ const messages = {
       },
       ticketsList: {
         pendingHeader: "Aguardando",
-        assignedHeader: "Atendendo",
+        assignedHeader: "Meus Atendimentos",
         noTicketsTitle: "Nada aqui!",
         noTicketsMessage:
           "Nenhum ticket encontrado com esse status ou termo pesquisado",
@@ -327,7 +327,7 @@ const messages = {
           tickets: "Atendimentos",
           contacts: "Contatos",
           quickAnswers: "Respostas Rápidas",
-          queues: "Filas & Chatbot",
+          queues: "Setores & Chatbot",
           schedules: "Agendamentos",
           tags: "Tags",
           api: "API",
@@ -392,7 +392,7 @@ const messages = {
         success: "Agendamento salvo com sucesso.",
       },
       queues: {
-        title: "Filas",
+        title: "Setores",
         table: {
           name: "Nome",
           color: "Cor",
@@ -400,7 +400,7 @@ const messages = {
           actions: "Ações",
         },
         buttons: {
-          add: "Adicionar fila",
+          add: "Adicionar setores",
         },
         confirmationModal: {
           deleteTitle: "Excluir",
@@ -409,7 +409,7 @@ const messages = {
         },
       },
       queueSelect: {
-        inputLabel: "Filas",
+        inputLabel: "Setores",
       },
       quickAnswers: {
         title: "Respostas Rápidas",
@@ -437,7 +437,7 @@ const messages = {
           name: "Nome",
           email: "Email",
           profile: "Perfil",
-          whatsapp: "Conexão Padrão",
+          whatsapp: "Whatsapp Padrão",
           actions: "Ações",
         },
         buttons: {
@@ -521,7 +521,7 @@ const messages = {
           assignedTo: "Atribuído à:",
           buttons: {
             return: "Retornar",
-            resolve: "Resolver",
+            resolve: "Finalizar",
             reopen: "Reabrir",
             accept: "Aceitar",
           },

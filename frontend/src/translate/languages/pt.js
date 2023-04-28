@@ -51,7 +51,7 @@ const messages = {
             title: "Aguardando"
           },
           closed: {
-            title: "Finalizado"
+            title: "closed"
           }
         }
       },

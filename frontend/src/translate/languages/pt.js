@@ -302,7 +302,7 @@ const messages = {
       },
       ticketsList: {
         pendingHeader: "Aguardando",
-        assignedHeader: "Meus Atendimentos",
+        assignedHeader: "Atendimentos",
         noTicketsTitle: "Nada aqui!",
         noTicketsMessage:
           "Nenhum ticket encontrado com esse status ou termo pesquisado",
@@ -392,7 +392,7 @@ const messages = {
         success: "Agendamento salvo com sucesso.",
       },
       queues: {
-        title: "Setores",
+        title: "Setores & Chatbot",
         table: {
           name: "Nome",
           color: "Cor",

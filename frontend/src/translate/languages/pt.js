@@ -323,7 +323,7 @@ const messages = {
       mainDrawer: {
         listItems: {
           dashboard: "Dashboard",
-          connections: "Conexões",
+          connections: "Conexões Whatsapp",
           tickets: "Atendimentos",
           contacts: "Contatos",
           quickAnswers: "Respostas Rápidas",

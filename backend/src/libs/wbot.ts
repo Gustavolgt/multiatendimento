@@ -5,7 +5,7 @@ import makeWASocket, {
   fetchLatestBaileysVersion,
   LegacyAuthenticationCreds,
   makeInMemoryStore,
-  makeWALegacySocket
+  makeWALegacySocke
 } from "@adiwajshing/baileys";
 
 import { Boom } from "@hapi/boom";
